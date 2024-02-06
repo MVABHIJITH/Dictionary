@@ -1,0 +1,74 @@
+ @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Protest+Revolution&display=swap');
+
+ .main {
+     height: 500px;
+     width: 75%;
+     border: solid rgb(163, 184, 215);
+     margin-top: 120px;
+     margin-left: 170px;
+     background: rgb(17, 102, 197);
+     background: linear-gradient(0deg, rgb(94, 154, 222) 5%, rgba(18, 125, 194, 1) 42%, rgba(200, 207, 226, 1) 95%);
+     border-radius: 90px;
+ }
+
+ .hed {
+     font-family: 'Protest Guerrilla', sans-serif;
+     font-family: 'Protest Revolution', sans-serif;
+     font-size: 80px;
+ }
+
+ body {
+     background-image: url(./bgimg.jpeg);
+ }
+
+ .inpt {
+     border-radius: 30px;
+     margin-left: 370px;
+     width: 300px;
+     height: 50px;
+     border: rgb(46, 93, 169) solid;
+ }
+
+ .ans {
+     text-align: center;
+ }
+
+ .icon {
+     width: 100px;
+ }
+
+ @media(max-width:600px) {
+     .inpt {
+         margin-left: 43px;
+         width: 150px;
+         height: 30px;
+
+     }
+
+     .main {
+         height: 500px;
+         margin-left: 50px;
+     }
+
+     body {
+         width: 100%;
+      }
+
+     .hed {
+         font-size: 30px;
+     }
+
+     .ans {
+         width: 308px;
+         height: 300px;
+         text-align: center;
+         margin-top: 10px;
+     }
+
+     .btn {
+         width: 90px;
+         height: 35px;
+     }
+
+
+ }
